@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Deming in Food Industry: Farm to Fork</title>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background: #f9f9fb; color: #333; padding: 20px; }
+    h1, h2 { color: #1976d2; }
+    .diagram { margin: 30px 0; padding: 20px; background: white; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+    .mermaid { background: #fff; padding: 15px; border-radius: 8px; }
+    table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+    th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+    th { background: #e3f2fd; }
+    footer { margin-top: 50px; font-size: 0.9em; color: #777; text-align: center; }
+  </style>
+</head>
+<body>
+
+  <h1>Deming in the Food Industry: From Farm to Fork</h1>
+  <p><strong>W. Edwards Deming’s Quality Philosophy</strong> applied to modern food systems (2025).</p>
+
+  <!-- DIAGRAM 1: Chain Reaction -->
+  <div class="diagram">
+    <h2>1. Deming Chain Reaction – Food Industry (2025)</h2>
+    <p>Improve quality → Reduce waste → Increase speed → Capture market → Grow jobs</p>
+    <div class="mermaid">
+      flowchart LR
+        Q[Improve Quality<br/>• Precision farming<br/>• AI vision inspection<br/>• Cold-chain IoT<br/>• Clean-label recipes]
+        --> C[Costs ↓<br/>• 30% less spoilage<br/>• Fewer recalls<br/>• Energy-efficient plants<br/>• Lower rework]
+        --> P[Velocity ↑<br/>• Farm-to-table <48 hrs<br/>• 100 SKUs/hr packaged<br/>• Ghost kitchens: 300 orders/hr]
+        --> M[Capture Market<br/>• Zero-waste brands<br/>• Hyper-local farms<br/>• Subscription models]
+        --> B[Business Grows<br/>• Revenue ↑<br/>• Funding ↑<br/>• Expansion]
+        --> J[Jobs ↑<br/>• Agronomists<br/>• Food AI engineers<br/>• Drone pilots<br/>• Urban farmers]
+        style Q fill:#1976d2,color:white
+        style J fill:#2e7d32,color:white
+        classDef highlight fill:#ff9800,color:white
+        class C,P highlight
+    </div>
+  </div>
+
+  <!-- DIAGRAM 2: PDSA Cycle -->
+  <div class="diagram">
+    <h2>2. PDSA Cycle – Reduce Bakery Waste</h2>
+    <p>Example: A bakery uses PDSA to cut daily bread waste by 50%.</p>
+    <div class="mermaid">
+      flowchart TD
+        P[PLAN<br/>• Goal: Cut waste 50%<br/>• Use sales data<br/>• Metric: kg/day]
+        --> D[DO<br/>• Reduce Tue bake 20%<br/>• Test 1 week]
+        --> S[STUDY<br/>• Waste ↓45%<br/>• Sales unchanged<br/>• Staff happier]
+        --> A[ACT<br/>• Standardize schedule<br/>• Roll out to 50 stores<br/>• Monitor monthly]
+        --> P
+        style P fill:#2196f3,color:white
+        style D fill:#ff9800
+        style S fill:#4caf50,color:white
+        style A fill:#f44336,color:white
+    </div>
+  </div>
+
+  <!-- DIAGRAM 3: Farm to Fork System -->
+  <div class="diagram">
+    <h2>3. Farm to Fork – Full System View (Deming: "View Production as a System")</h2>
+    <div class="mermaid">
+      graph TD
+        FARM[Farmers<br/>• Seeds<br/>• Sensors<br/>• Drones]
+        --> PROCESS[Processing<br/>• Cleaning<br/>• Cooking<br/>• Packaging<br/>• AI Quality Check]
+        --> DIST[Distribution<br/>• Cold Chain<br/>• Predictive Routing<br/>• Blockchain Trace]
+        --> FORK[Consumer<br/>• Restaurants<br/>• Grocery<br/>• Home Delivery]
+        --> FEED[Feedback<br/>• Reviews<br/>• Waste Scans<br/>• Health Data]
+        --> FARM
+
+        VAR[VARIATION<br/>• Weather<br/>• Temperature<br/>• Demand spikes]
+        PSY[PSYCHOLOGY<br/>• Chef creativity<br/>• Consumer trust<br/>• Worker pride]
+
+        style FEED fill:#fff3e0,stroke:#fb8c00
+        style VAR fill:#ffebee,stroke:#e53935
+        style PSY fill:#f3e5f5,stroke:#8e24aa
+        style FARM fill:#8bc34a,color:white
+        style FORK fill:#ff9800,color:white
+    </div>
+  </div>
+
+  <!-- DIAGRAM 4: Bronze Age vs 2025 -->
+  <div class="diagram">
+    <h2>4. Bronze Age vs 2025 Food System (Deming Lens)</h2>
+    <table>
+      <tr><th>Aspect</th><th>4000 Years Ago</th><th>2025 (Deming Applied)</th></tr>
+      <tr><td>Quality</td><td>Hand-threshed grain<br/>Clay-sealed jars</td><td>HACCP + AI vision<br/>DNA-tested seeds</td></tr>
+      <tr><td>Waste</td><td>Spoilage in pits</td><td>AI demand prediction<br/>&lt;5% waste</td></tr>
+      <tr><td>Feedback</td><td>Next harvest (1 year)</td><td>Real-time app + sensors</td></tr>
+      <tr><td>Jobs</td><td>Farmer, baker</td><td>Food data scientist<br/>Drone pilot</td></tr>
+    </table>
+  </div>
+
+  <!-- DIAGRAM 5: Real Examples -->
+  <div class="diagram">
+    <h2>5. Real-World 2025 Examples</h2>
+    <table>
+      <tr><th>Company</th><th>Deming Principle</th><th>Impact</th></tr>
+      <tr><td>HelloFresh</td><td>PDSA A/B testing</td><td>Returns ↓18%</td></tr>
+      <tr><td>Too Good To Go</td><td>Reduce Waste</td><td>200M meals saved</td></tr>
+      <tr><td>Oatly</td><td>Quality → Market</td><td>Global scale</td></tr>
+      <tr><td>Walmart Fresh</td><td>Voice of Process</td><td>30% less produce waste</td></tr>
+      <tr><td>Chipotle</td><td>Drive Out Fear</td><td>Open kitchen + blameless culture</td></tr>
+    </table>
+  </div>
+
+  <footer>
+    <p>Diagrams powered by <a href="https://mermaid.js.org" target="_blank">Mermaid.js</a> | 
+    Inspired by <strong>W. Edwards Deming</strong> | 
+    Created for Food Industry Leaders (2025)</p>
+    <p>Save as <code>deming-food-farm-to-fork.html</code> and open in any browser. Export diagrams via right-click → Save as PNG.</p>
+  </footer>
+
+  <script>
+    mermaid.initialize({ startOnLoad: true, theme: 'default' });
+  </script>
+</body>
+</html>
