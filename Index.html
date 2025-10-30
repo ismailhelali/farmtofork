@@ -4,70 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Deming in Food Industry: Farm to Fork</title>
-
-  <!-- Mermaid.js v10.9.1 - Official CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
   <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f5f7fa;
-      color: #222;
-      margin: 0;
-      padding: 20px;
-      line-height: 1.7;
-    }
-    h1, h2 {
-      color: #0d47a1;
-      border-bottom: 2px solid #bbdefb;
-      padding-bottom: 10px;
-    }
-    .diagram {
-      margin: 35px 0;
-      padding: 22px;
-      background: white;
-      border-radius: 14px;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
-    }
-    .mermaid {
-      background: #fafafa;
-      padding: 18px;
-      border-radius: 10px;
-      overflow-x: auto;
-      text-align: center;
-      min-height: 200px;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 18px 0;
-      font-size: 0.95em;
-    }
-    th, td {
-      border: 1px solid #e0e0e0;
-      padding: 12px;
-      text-align: left;
-    }
-    th {
-      background: #e3f2fd;
-      font-weight: 600;
-    }
-    .note {
-      background: #fff8e1;
-      padding: 14px;
-      border-left: 5px solid #ffc107;
-      margin: 20px 0;
-      font-size: 0.95em;
-      border-radius: 0 8px 8px 0;
-    }
-    footer {
-      margin-top: 70px;
-      text-align: center;
-      color: #666;
-      font-size: 0.9em;
-      padding: 20px;
-      border-top: 1px solid #eee;
-    }
+    body { font-family: system-ui, sans-serif; background: #f8f9fc; color: #1a1a1a; padding: 20px; line-height: 1.7; }
+    h1, h2 { color: #0d47a1; border-bottom: 2px solid #bbdefb; padding-bottom: 10px; }
+    .diagram { margin: 35px 0; padding: 22px; background: white; border-radius: 14px; box-shadow: 0 6px 20px rgba(0,0,0,0.1); }
+    .mermaid { background: #f5f5f5; padding: 18px; border-radius: 10px; overflow-x: auto; text-align: center; min-height: 200px; }
+    table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 0.95em; }
+    th, td { border: 1px solid #e0e0e0; padding: 12px; text-align: left; }
+    th { background: #e3f2fd; font-weight: 600; }
+    .note { background: #fff8e1; padding: 14px; border-left: 5px solid #ffc107; margin: 20px 0; border-radius: 0 8px 8px 0; }
+    footer { margin-top: 70px; text-align: center; color: #666; font-size: 0.9em; padding: 20px; border-top: 1px solid #eee; }
   </style>
 </head>
 <body>
@@ -162,17 +109,15 @@
   </div>
 
   <div class="note">
-    <strong>How to Save Diagrams:</strong> Right-click any diagram → <strong>"Save image as..."</strong> → PNG file.
+    <strong>Diagrams are interactive!</strong> Right-click → Save as PNG.
   </div>
 
   <footer>
     <p>Powered by <a href="https://mermaid.js.org" target="_blank">Mermaid.js</a> | 
     Inspired by <strong>W. Edwards Deming</strong> | 
     Created: October 2025</p>
-    <p>File: <code>deming-food-farm-to-fork.html</code></p>
   </footer>
 
-  <!-- Initialize Mermaid -->
   <script>
     mermaid.initialize({
       startOnLoad: true,
